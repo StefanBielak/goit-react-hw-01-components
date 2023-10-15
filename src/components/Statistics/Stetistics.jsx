@@ -7,8 +7,8 @@ const Statistics = ({ title, stats }) => {
   <section className={styles.statistics}>
     <h2 className={styles.title}>Upload stats</h2>
     <ul className={styles['stat-list']}>
-      {stats.map(stat => (
-        <li key={stat.id} className={styles.item}>
+      {stats.map(item => (
+        <li key={item.id} className={styles.item}>
           <span className={styles.label}>{item.label}</span>
           <span className={styles.percentage}>{item.percentage}</span>
         </li>
