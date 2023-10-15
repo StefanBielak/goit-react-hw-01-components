@@ -1,0 +1,35 @@
+.transaction-history {
+    font-family: "Roboto", sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 400px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .table-header-item,
+  .table-row-item {
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid #bdbdbd;
+  }
+  
+  .table-header-item {
+    background-color: #bdbdbd;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .table-row-item {
+    font-size: 14px;
+    color: #424242;
+  }
+  
+  .table-row:nth-child(2n) {
+    background-color: #eeeeee;
+  }
+  
+  .table-row:nth-child(2n + 1) {
+    background-color: #fff;
+  }
